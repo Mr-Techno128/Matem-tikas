@@ -648,19 +648,19 @@ header.sticky .nav-bar {
 }
 
 .team-logo .light-theme-logo {
-  display: none;
+  display: block;
 }
 
 .team-logo .dark-theme-logo {
-  display: block;
-}
-
-.dark-theme .team-logo .dark-theme-logo {
   display: none;
 }
 
-.dark-theme .team-logo .light-theme-logo {
+.dark-theme .team-logo .dark-theme-logo {
   display: block;
+}
+
+.dark-theme .team-logo .light-theme-logo {
+  display: none;
 }
 
 .team .container .content {
