@@ -63,11 +63,7 @@
 .dark-theme .fa-sun {
   display: block;
 }
-.dark-theme .dark-theme-logo{
-  display:none;
-}
-.dark-theme .light-theme-logo{
-  display:block;
+
 }
 * { 
   font-family: "Poppins", sans-serif;
@@ -653,7 +649,11 @@ header.sticky .nav-bar {
 }
 
 .team-logo .light-theme-logo {
-  display: block;
+  display: none;
+}
+
+.team-logo{
+  background:var(--team-logo);
 }
 
 .team-logo .dark-theme-logo {
