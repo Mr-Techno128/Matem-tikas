@@ -16,7 +16,7 @@
   --body-bg-color:#fefefe;
   --card-bg-color:#fff;
   --modal-bg-color:#fff;
-  --team-logo: "Logo-dark.png";
+  --team-logo: url(Logo-dark.png);
   --bg-transparent-color:rgba(0, 0, 0, 0.1);
   --transparent-color-01:rgba(0, 0, 0, 0.1);
   --transparent-color-02:rgba(106, 89, 209, 0.1);
@@ -46,7 +46,7 @@
   --card-bg-color:#070e1a;
   --modal-bg-color:#070e1a;
   --body-bg-color:#00000e;
-  --team-logo: "logo.jpeg";
+  --team-logo: url(logo.jpeg);
   --bg-transparent-color:rgba(225, 225, 225, 0.1);
   --transparent-color-01:rgba(225, 225, 225, 0.1);
   --line-color:#456a6b;
@@ -64,7 +64,7 @@
   display: block;
 }
 
-* { 
+* {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -648,11 +648,7 @@ header.sticky .nav-bar {
 }
 
 .team-logo .light-theme-logo {
-  display: none;
-}
-
-.team-logo{
-  background:url(var(--team-logo));
+  display: block;
 }
 
 .team-logo .dark-theme-logo {
