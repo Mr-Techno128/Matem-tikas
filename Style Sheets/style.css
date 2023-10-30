@@ -37,8 +37,8 @@
 .dark-theme {
   /*========Main theme colors======*/
   --first-color:#fff;
-  --second-color:rgb(0, 200, 195);
-  --third-color:#a9afc3;
+  --second-color:rgb(47, 0, 200);
+  --third-color:#b2a9c3;
   --dark-color:black;
   --icon-color:white;
   --gradient-white:linear-gradient(#070e1a,#070e1a);
@@ -53,9 +53,9 @@
   /*========Color filter======*/
   --color-filter:invert(1);
   /*========Scroll bar colors======*/
-  --scroll-bar-color:#c1ceff;
-  --scroll-thumb-color:#28454e;
-  --scroll-thumb-hover:#45636b;
+  --scroll-bar-color:#cfc5df;
+  --scroll-thumb-color:#75708a;
+  --scroll-thumb-hover:#46456b;
 }
 .dark-theme .fa-moon {
   display: none;
