@@ -729,7 +729,7 @@ header.sticky .nav-bar {
 }
 
 
-/* calculator */
+/* calculator 
 * {
   margin: 0;
   padding: 0;
@@ -769,22 +769,20 @@ body::after {
           clip-path: circle(10% at 65% 85%);
 }
 
-.container {
+
+.container .calculator {
+  position: relative;
+  display: grid;
   position: relative;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
   overflow: hidden;
   z-index: 10;
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   border-top: 1px solid rgba(255, 255, 255, 0.02);
   border-left: 1px solid rgba(255, 255, 255, 0.02);
   box-shadow: 5px 5px 30px rgba(255, 255, 255, 0.02);
-}
-
-.container .calculator {
-  position: relative;
-  display: grid;
 }
 
 .container .calculator .value {
@@ -844,7 +842,7 @@ body::after {
 .container .calculator .equal {
   background: rgba(255, 255, 255, 0.05);
 }
-
+*/
 
 /* ===========footer=======*/
 footer {
